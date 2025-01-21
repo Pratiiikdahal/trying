@@ -1,0 +1,167 @@
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.top{
+    background:#088F33;
+    font-weight:bold;
+    font-size:1rem;
+}
+
+.navbar-brand img{
+    position:absolute;
+    top:-50px;
+    border:5px solid orange;
+    z-index:99999;
+}
+.navbar{
+    background:#0B732B !important;
+    font-size: 1.5rem !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:white;
+}
+.banner .w-100{ 
+    height:750px;
+    width:100%;
+    object-fit: cover;
+}
+.carousel-caption {
+    position:absolute;
+    bottom: 40% !important;
+    right:10px !important;
+    font-size:30px;
+}
+.carousel-caption h5{
+    font-size:40px;
+    font-weight: bold;
+}
+.content h3{
+    background:#088F33;
+    color:white;
+    
+}
+.read-more a{
+    background:orange;
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+} 
+.featured ul{
+    list-style: disc;
+}
+.featured li{
+    font-weight:bold;
+    font-size:20px;
+}
+.card{
+    position:relative;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+
+.card img{
+    display:block;
+    transition:0.9s;
+    width:100;
+}
+
+.card img:hover{
+    transform:scale(1.5);
+}
+.card img:hover .card h4{
+    background:#088F33;
+}
+
+.card h4{
+    position:absolute;
+    bottom:40px;
+    left:0;
+    background:orange;
+    color:white;
+    padding:15px 20px;
+}
+
+.nav-pills .nav-link{
+    color:white;
+    background:green;
+    border-radius: 0px !important;
+    font-size: 30px;
+}
+.nav-pills .nav-link.active{
+    background:orange !important;
+    color:white;
+}
+
+.nav-pills .nav-link:hover{
+    color:white;
+}
+.banner-2 .w-100{
+    height:400px;
+    width:100%;
+    object-fit: cover;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed{
+    background:#0B732B ;
+    color:white;
+    padding:25px;
+    margin-bottom: 5px;
+    font-size:20px;
+}
+.foot{
+    background:#333333;
+    padding-top:50px;
+    padding-bottom:50px;
+    color:white;
+    font-size:25px;
+}
+.foot a{
+    color:white;
+    background:orange;
+    padding:20px 40px;
+    text-decoration:none;
+
+}
+.imag{
+    position:relative;
+    margin:40px 0px;
+    transition:1s;
+}
+.imag img{
+    display:block;
+}
+
+.imag h2{
+    position:absolute;
+    bottom:-8px;
+    left:0;
+  background:green;
+    padding:20px 70px;
+    color:white;  
+    font-size:20px;
+}
+.imag h2::after{
+    content:'$100';
+    background:orange;
+    padding:20px 50px;
+    color:white;
+    position:absolute;
+    bottom:0px;
+    right:-118px;
+}
+
+.imag:hover img{
+    opacity: 0.5;
+}
+.carousel-image img{
+    position:relative;
+}
+.carousel-image .dim-image{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514));
+}
